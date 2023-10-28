@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('blue-abstract-gradient-wave-wallpaper.jpg');
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3b3939;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; /* This will push the content to the right */
+}
+.right-links {
+    display: flex; /* Display the links as a flex container */
+    gap: 20px; /* Add some spacing between the links */
+}
+.right {
+    float: right;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+.right-links a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.button {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}

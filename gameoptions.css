@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+    margin: 20px;
+}
+
+.game {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game a {
+    text-decoration: none;
+    color: #333;
+}
+
+.game img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.game h3 {
+    font-size: 1.2rem;
+}
+
+.image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px; /* Adjust the margin to your liking */
+    width: 100%;
+    height: 100%;
+}

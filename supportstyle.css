@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('blue-abstract-gradient-wave-wallpaper.jpg');
+    margin: 0;
+    padding: 0;
+}
+.corner-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px; /* Adjust the margin to your liking */
+    width: 35%;
+    height: 35%;
+}
