@@ -192,7 +192,7 @@ function sudokuAnswer(S)
     if (sudokuBackTracking(S))
     {
         console.log('Found answer!');
-        console.log(S);
+        console.log(S.data);
         return 1;
     }
 
